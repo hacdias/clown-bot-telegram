@@ -1,21 +1,16 @@
 # Clown Bot
 
-> This is a simple bot for Discord which is capable of retrieving the latest XKCD comic, or a random one, and it
-> also tells some interesting jokes if you ask him.
+> This is a simple bot for Telegram which is capable of retrieving the latest XKCD comic, or a random one, and it also tells some interesting jokes if you ask him.
 
 ## Install
 
 You'll need two things to install/run this bot for yourself:
 
-- A Discord application bot token: get one [here](https://discordapp.com/developers/applications/).
-- An account on [Dialogflow](https://console.dialogflow.com/api-client) so you can use the natural language processing.
+- A Telegram bot token: get one [here](http://t.me/BotFather).
 
-On the Dialogflow account, you can import these [intents](./intents). After having those, you'll need to set thre
-environment variables:
+Se these environment variables:
 
-- `DISCORD_BOT` - the Discord bot token.
-- `PROJECT_ID` - the project ID (can be found on Dialogflow settings).
-- `GOOGLE_APPLICATION_CREDENTIALS` - the path to your [GApp credentials](https://cloud.google.com/docs/authentication/getting-started).
+- `TELEGRAM` - token.
 
 Then, just run:
 
@@ -26,7 +21,7 @@ npm start
 
 ## Usage
 
-On your server, try running `@YourBot what do you do?` or `!help`.
+Talk to your bot and ask him for `/help`.
 
 ## Contributing
 
