@@ -1,0 +1,22 @@
+{
+  "name": "clown-bot-tg",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Henrique Dias <hacdias@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard ./src",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "fs-extra": "^8.0.1",
+    "node-fetch": "^2.3.0",
+    "telegraf": "^3.34.1"
+  },
+  "devDependencies": {
+    "standard": "^14.0.0"
+  }
+}
