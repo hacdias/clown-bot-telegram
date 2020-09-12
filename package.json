@@ -13,7 +13,7 @@
   "dependencies": {
     "debug": "^4.1.1",
     "fs-extra": "^9.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "telegraf": "^3.37.0"
   },
   "devDependencies": {
